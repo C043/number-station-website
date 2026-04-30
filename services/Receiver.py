@@ -22,11 +22,11 @@ class Receiver(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def set_frequency(self, frequency: float):
+    def set_frequency(self, frequency: int):
         raise NotImplementedError
 
     @abstractmethod
-    def set_filter(self, lower_bound: float, upper_bound: float):
+    def set_filter(self, lower_bound: int, upper_bound: int):
         raise NotImplementedError
 
     @abstractmethod
